@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    background-color: #212529 !important;
+}
+
+.headline {
+    margin-left: 16px;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: #212529 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-card {
+    width: 25rem;
+}
+
+.question-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(0,0,0,0.25);
+    padding-top: 12px;
+}
+
+.answer-card {
+    cursor: pointer;
+}
+
+.answer-card:hover {
+    background-color: rgba(0,0,0,0.05);
+}
+
+.bg-success, .bg-danger {
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.options {
+    box-sizing: border-box;
+    margin: 8px;
+    padding: 8px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displaytoflex {
+    display: flex;
+}
+
+.contentendscreen {
+    font-size: 38px;
+    margin: 24px;
+}
+
+.scorecontent {
+    margin-bottom: 16px;
+}
+
+.arrow {
+    height: 25px;
+    width: 25px;
+}
+
+.btn-start {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.font {
+    font-size: 24px;
+}
+
+.fontsubline {
+    font-size: 20px;
+}
+
+.startcontainer {
+    width: 500px;
+    height: var(--bs-card-height);
+    background-color: #212529;
+    margin-right: 30px;
+}
+
+.startlogo {
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 70px;
+    width: 70px;
+}
+
+.restartbuttoncontainer {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
